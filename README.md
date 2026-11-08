@@ -3,7 +3,7 @@
 Odpowiedzi do eventu Quiz Mądrości w Last Asylum: Plague, po polsku i angielsku, z wyszukiwarką.
 Answers to the Quiz of Wisdom event in Last Asylum: Plague, in Polish and English, with search.
 
-→ Strona / Site: https://magdalenagorecka.github.io/roj-quiz/
+→ Strona / Site: https://magdastasiak.github.io/roj-quiz/
 
 ## Jak dodać pytanie?
 1. Dopisz wiersz w `src/data.py`
