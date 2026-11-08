@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ROJ · Quiz Mądrości - odpowiedzi | Quiz of Wisdom answers</title>
+<meta name="description" content="Wszystkie odpowiedzi do Quizu Mądrości w Last Asylum: Plague, po polsku i angielsku. All Quiz of Wisdom answers in Polish and English.">
+<meta property="og:title" content="ROJ · Quiz Mądrości / Quiz of Wisdom">
+<meta property="og:description" content="82 odpowiedzi PL + EN. Wpisz słowo z pytania i gotowe.">
+<meta name="theme-color" content="#0B0B0F">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B0B0F'/%3E%3Cpath d='M12 44 8 18l14 12 10-16 10 16 14-12-4 26z' fill='%23FFC84A'/%3E%3Crect x='12' y='47' width='40' height='6' rx='2' fill='%23D90E1E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0B0B0F;--card:#15141B;--line:#2A2632;--red:#D90E1E;--orange:#FF8A00;--gold:#FFC84A;--bone:#E8D8B9;--text:#F6F6F6;--muted:#A79F92}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body:before{content:"";position:fixed;inset:0 0 auto;height:340px;background:radial-gradient(70% 100% at 50% 0,rgba(217,14,30,.28),transparent 70%);pointer-events:none;z-index:-1}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+header{text-align:center;padding:20px 0 6px}
+.crown{width:46px;height:30px;display:block;margin:0 auto 6px}
+.brand{font:900 13px/1 Cinzel,serif;letter-spacing:.32em;color:var(--gold);margin:0 0 10px}
+h1{font:900 clamp(30px,8vw,46px)/1.02 Cinzel,serif;margin:0;color:var(--bone);text-shadow:0 2px 0 #000,0 0 24px rgba(255,138,0,.25)}
+h1 span{display:block;color:var(--red);font-size:.62em;margin-top:6px;text-shadow:0 2px 0 #000}
+.sub{color:var(--muted);font-size:14px;margin:12px 0 0}
+.bar{position:sticky;top:0;z-index:5;background:linear-gradient(var(--bg) 82%,rgba(11,11,15,0));padding:10px 0 12px}
+.search{position:relative}
+.search input{width:100%;font-size:17px;color:var(--text);background:#1B1A22;border:2px solid #3A3442;border-radius:14px;padding:14px 46px 14px 46px;outline:none;-webkit-appearance:none}
+.search input:focus{border-color:var(--gold);box-shadow:0 0 0 4px rgba(255,200,74,.15)}
+.search input::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+.search input::placeholder{color:#8C8496}
+.search svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);width:20px;height:20px;stroke:var(--gold)}
+.clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:34px;height:34px;border:0;border-radius:10px;background:#2A2632;color:var(--text);font-size:18px;cursor:pointer;display:none}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0 2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;font:600 13px/1 system-ui,sans-serif;color:var(--bone);background:transparent;border:1.5px solid #4A3F35;border-radius:999px;padding:9px 13px;cursor:pointer;white-space:nowrap}
+.chip small{color:var(--muted);font-weight:500}
+.chip[aria-pressed=true]{background:var(--gold);border-color:var(--gold);color:#1A1208}
+.chip[aria-pressed=true] small{color:#5A4520}
+.count{font-size:13px;color:var(--muted);margin:8px 2px 0}
+.list{display:grid;gap:10px;padding:4px 0 24px}
+.card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--red);border-radius:12px;padding:13px 15px}
+.tag{font:700 11px/1 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);display:flex;gap:8px;align-items:center}
+.tag .ok{color:#7FD08A;letter-spacing:0;text-transform:none;font-weight:600}
+.q{font-weight:600;margin:7px 0 4px;color:var(--text)}
+.a{font:700 18px/1.3 system-ui,sans-serif;color:var(--gold)}
+.a:before{content:"→ ";color:var(--red)}
+.d{font-size:14px;color:var(--bone);margin-top:2px}
+.en{border-top:1px dashed #3A3442;margin-top:10px;padding-top:9px}
+.en .q{font-weight:500;color:#CFC8BE;font-size:15px;margin-top:0}
+.en .a{font-size:16px;color:#F2D58C}
+.en .d{color:var(--muted)}
+.lang{font:700 10px/1 system-ui,sans-serif;color:#1A1208;background:var(--bone);border-radius:4px;padding:3px 5px;margin-right:6px;vertical-align:2px}
+.en .lang{background:#6B6375;color:#fff}
+mark{background:rgba(255,138,0,.35);color:inherit;border-radius:3px;padding:0 1px}
+.empty{display:none;text-align:center;color:var(--muted);padding:30px 10px}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;text-align:center;padding:18px 0 34px}
+footer p{margin:6px 0}
+footer b{color:var(--bone)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <svg class="crown" viewBox="0 0 46 30" aria-hidden="true"><path d="M4 24 1 4l11 9 11-12 11 12 11-9-3 20z" fill="#FFC84A"/><rect x="4" y="25" width="38" height="5" rx="1.5" fill="#D90E1E"/></svg>
+    <p class="brand">ROJ · RIDERS OF JUSTICE</p>
+    <h1>Quiz Mądrości<span>Quiz of Wisdom</span></h1>
+    <p class="sub">Last Asylum: Plague · PL + EN</p>
+  </header>
+
+  <div class="bar">
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.6-4.6"/></svg>
+      <input id="s" type="search" inputmode="search" autocomplete="off" placeholder="Szukaj · Search" aria-label="Szukaj / Search">
+      <button class="clear" id="c" aria-label="Wyczyść / Clear">×</button>
+    </div>
+    <div class="chips" id="chips" role="toolbar" aria-label="Kategorie / Categories"></div>
+    <p class="count" id="n" aria-live="polite"></p>
+  </div>
+
+  <main class="list" id="list"></main>
+  <p class="empty" id="e">Brak pytania? Zapisz je i daj znać na czacie sojuszu.<br>Not here? Note the question and post it in alliance chat.</p>
+
+  <footer>
+    <p><span class="ok" style="color:#7FD08A">✓ z gry</span> - polskie brzmienie sprawdzone w grze · Polish wording checked in-game</p>
+    <p>Fanowska ściągawka sojuszu <b>ROJ</b> · S303 · przygotowała <b>Damroka Mroczna</b></p>
+    <p>Fan-made, not affiliated with the game publisher.</p>
+  </footer>
+</div>
+
+<script>
+const CATS = {"gen": ["Wiedza ogólna", "General knowledge"], "bld": ["Budynki", "Buildings"], "fac": ["Frakcje", "Factions"], "vip": ["VIP", "VIP"], "lore": ["Fabuła", "Lore / Story"], "evt": ["Eventy", "Events"], "hero": ["Bohaterowie", "Heroes"], "ally": ["Sojusz", "Alliance"]};
+const Q = [{"c": "gen", "qp": "Co można otrzymać dzięki awansowi?", "ap": "Buff Kliniki", "dp": "", "qe": "Which of the following can be obtained via promotion?", "ae": "Clinic Buff", "de": "", "g": false}, {"c": "gen", "qp": "Jak zdobyć miedziane monety?", "ap": "Zbierać w Sanktuarium", "dp": "", "qe": "What are the ways to obtain Copper Coins?", "ae": "Collect in the Sanctuary", "de": "", "g": false}, {"c": "gen", "qp": "Co ogranicza maksymalny poziom bohatera?", "ap": "Poziom Sanktuarium", "dp": "", "qe": "What limits the hero level cap?", "ae": "Sanctuary Level", "de": "", "g": false}, {"c": "gen", "qp": "Które metody nie zwiększają mocy oddziału po porażce?", "ap": "Werbowanie ocalałych", "dp": "", "qe": "Which methods do not boost squad Might after defeat?", "ae": "Recruit Survivors", "de": "", "g": true}, {"c": "gen", "qp": "Liczba żołnierzy jest nieograniczona.", "ap": "Fałsz", "dp": "", "qe": "There is no limit to the number of Soldiers.", "ae": "Incorrect", "de": "", "g": false}, {"c": "gen", "qp": "Do czego służą Osobliwości (Curios)?", "ap": "Obie odpowiedzi są poprawne", "dp": "Wzmacniają statystyki budynków i statystyki bojowe", "qe": "What is the purpose of Curios?", "ae": "Both of the above", "de": "Enhance building-related stats and combat-related stats", "g": false}, {"c": "gen", "qp": "Ile razy dziennie możesz plądrować karawanę handlową innych graczy?", "ap": "4", "dp": "", "qe": "How many times can you plunder others' Trade Caravan daily?", "ae": "4", "de": "", "g": true}, {"c": "gen", "qp": "Ile razy dziennie można plądrować tajne operacje graczy spoza sojuszu?", "ap": "5", "dp": "", "qe": "How many times can non-Alliance members' Covert Operations be plundered each day?", "ae": "5", "de": "", "g": false}, {"c": "gen", "qp": "Z czym związany jest slot karawany?", "ap": "Z liczbą oddziałów", "dp": "", "qe": "What is the Caravan slot related to?", "ae": "Squad Count", "de": "", "g": false}, {"c": "gen", "qp": "Który materiał nie jest głównym surowcem w grze?", "ap": "Ruda żelaza", "dp": "", "qe": "Which of the following materials is not a main resource in the game?", "ae": "Iron Ore", "de": "", "g": false}, {"c": "gen", "qp": "Nagrody z jakich zadań może zwiększyć ocalała Freya?", "ap": "Zadania Sokoła", "dp": "", "qe": "Which type of Quest rewards can survivor Freya boost?", "ae": "Falcon Quest", "de": "", "g": false}, {"c": "gen", "qp": "Co zrobić, gdy brakuje zasobów na rozbudowę budynków lub badania?", "ap": "Wszystkie odpowiedzi są poprawne", "dp": "Zbieraj zasoby na mapie świata i plądruj innych graczy", "qe": "What can you do when lacking resources for building/technology upgrades?", "ae": "All of the above", "de": "Gather resources in the world, plunder other players", "g": false}, {"c": "gen", "qp": "Czy tajna operacja zajmuje kolejkę marszu?", "ap": "Nie", "dp": "", "qe": "Does the Covert Operation take up a march queue?", "ae": "No", "de": "", "g": false}, {"c": "gen", "qp": "Jaki jest odstęp między dwiema okazjami do odebrania wytrzymałości w ciągu dnia?", "ap": "4 godziny", "dp": "", "qe": "How long is the time interval between two opportunities to claim Stamina each day?", "ae": "4 Hours", "de": "", "g": false}, {"c": "gen", "qp": "Jak zdobyć ocalałych?", "ap": "Obie odpowiedzi są poprawne", "dp": "Werbowanie w Tawernie i leczenie pacjentów w nagłych wypadkach", "qe": "How do you obtain survivors?", "ae": "Both of the above", "de": "Recruit in Tavern, treat emergency patients", "g": false}, {"c": "gen", "qp": "Co potrafi Kruk w grze?", "ap": "Wszystkie odpowiedzi są poprawne", "dp": "Wzmacnia statystyki bohatera i używa umiejętności w walce", "qe": "What can the Raven do in the game?", "ae": "All of the above", "de": "Enhances hero stats, uses skills in battle", "g": false}, {"c": "gen", "qp": "Jak zwiększyć moc oddziału po nieudanej eksploracji?", "ap": "Obie odpowiedzi są poprawne", "dp": "Ulepszając bohaterów i ulepszając poziom żołnierzy", "qe": "How do you enhance a squad's might after a failed exploration?", "ae": "Both", "de": "Upgrade Heroes, Upgrade Soldier Tier", "g": true}, {"c": "gen", "qp": "Ile tajnych operacji może jednocześnie wykonywać jedna kolejka marszu?", "ap": "2", "dp": "", "qe": "How many Covert Operations can a march queue execute simultaneously?", "ae": "2", "de": "", "g": false}, {"c": "gen", "qp": "Które wyposażenie najmocniej zwiększa moc bohatera?", "ap": "UR", "dp": "", "qe": "Which gear boosts a hero's Might the most significantly?", "ae": "UR", "de": "", "g": false}, {"c": "gen", "qp": "Jak zwiększyć nagrody z Obozu Odkrywcy?", "ap": "Przejść więcej etapów", "dp": "", "qe": "How do you enhance the rewards obtained from the Explorer's Camp?", "ae": "Clear more stages", "de": "", "g": false}, {"c": "gen", "qp": "Co się zmienia, gdy rośnie poziom gwiazdek tajnych operacji?", "ap": "Wszystkie odpowiedzi są poprawne", "dp": "Wyższy poziom trudności i lepsze nagrody", "qe": "What changes when the Star level of Covert Operations increases?", "ae": "All of the above", "de": "Higher difficulty, better rewards", "g": false}, {"c": "bld", "qp": "Na którym poziomie Sanktuarium odblokowuje się wyposażenie Kruka?", "ap": "15", "dp": "", "qe": "At which Sanctuary level is Raven Gear unlocked?", "ae": "15", "de": "", "g": false}, {"c": "bld", "qp": "Gdzie produkowane jest drewno?", "ap": "Tartak", "dp": "", "qe": "Where is Timber produced?", "ae": "Lumberyard", "de": "", "g": false}, {"c": "bld", "qp": "Który budynek produkuje antytoksynę?", "ap": "Warsztat Antytoksyn", "dp": "", "qe": "Which building produces antitoxin in the game?", "ae": "Antitoxin Workshop", "de": "", "g": false}, {"c": "bld", "qp": "Co daje wyższy poziom Koszar?", "ap": "Większa pojemność żołnierzy", "dp": "", "qe": "What is the benefit of having higher level Barracks in the game?", "ae": "Soldier capacity increased", "de": "", "g": false}, {"c": "bld", "qp": "Do czego można wykorzystać przedmioty wyprodukowane w warsztacie tkackim?", "ap": "Wytwórz wyposażenie", "dp": "", "qe": "What can the items produced in the Weaving Workshop be used for?", "ae": "Craft Gear", "de": "", "g": true}, {"c": "bld", "qp": "Gdzie produkowane jest zboże?", "ap": "Farma", "dp": "", "qe": "Where is Grain produced?", "ae": "Farm", "de": "", "g": false}, {"c": "bld", "qp": "W którym budynku można szybko przydzielić ocalałych?", "ap": "Rezydencja", "dp": "", "qe": "In which building can players quickly dispatch survivors?", "ae": "Residence", "de": "", "g": false}, {"c": "bld", "qp": "Który budynek produkuje kamienie wyposażenia?", "ap": "Huta (Warsztat Wytopu)", "dp": "", "qe": "Which building produces gearstones?", "ae": "Smelting Workshop", "de": "", "g": false}, {"c": "bld", "qp": "Jak podnieść gwiazdkę Infirmerii?", "ap": "Ulepszać budynki w Infirmerii", "dp": "", "qe": "How do you raise the star of the infirmary?", "ae": "Upgrade buildings in the Infirmary", "de": "", "g": false}, {"c": "bld", "qp": "Jak ulepszyć żołnierzy?", "ap": "Ulepszyć Plac Treningowy", "dp": "", "qe": "How do you upgrade soldiers?", "ae": "Upgrade Training Grounds", "de": "", "g": false}, {"c": "bld", "qp": "Który budynek trzeba ulepszyć, gdy bohater osiągnie limit poziomu?", "ap": "Sanktuarium", "dp": "", "qe": "When a hero hits the level cap, which building do you need to upgrade?", "ae": "Sanctuary", "de": "", "g": false}, {"c": "bld", "qp": "Który budynek w mieście jest najwspanialszy?", "ap": "Sanktuarium", "dp": "", "qe": "What is the most magnificent building in the town?", "ae": "Sanctuary", "de": "", "g": false}, {"c": "fac", "qp": "Która frakcja kontruje Wojowników?", "ap": "Łowcy", "dp": "", "qe": "Which faction counters the Warrior?", "ae": "Ranger", "de": "", "g": false}, {"c": "fac", "qp": "Kiedy działa przewaga frakcji?", "ap": "Wszystkie odpowiedzi są poprawne", "dp": "Zaraza Króla Demonów i bitwy PvP", "qe": "When is faction restraint applicable?", "ae": "All of the above", "de": "Demon King Blight, PvP Battle", "g": false}, {"c": "fac", "qp": "Kiedy odblokowuje się bonus frakcji?", "ap": "Po pierwszym Starciu o Miasto Królewskie", "dp": "", "qe": "When does the faction bonus feature unlock?", "ae": "First Royal City Scramble", "de": "", "g": false}, {"c": "fac", "qp": "Jaka jest korzyść z drużyny bohaterów z tej samej frakcji?", "ap": "Większe obrażenia dzięki bonusowi frakcji", "dp": "", "qe": "What are the advantages of forming a team with Heroes from the same faction?", "ae": "Damage increased by faction bonus", "de": "", "g": false}, {"c": "fac", "qp": "Jak dobrać bohaterów, żeby zadawali jak najwięcej obrażeń?", "ap": "5 bohaterów z tej samej frakcji", "dp": "", "qe": "How do you select heroes to maximize their overall damage dealt when building a hero lineup?", "ae": "5 members from the same faction", "de": "", "g": false}, {"c": "fac", "qp": "Jakich bohaterów kontrują Łowcy?", "ap": "Wojowników", "dp": "", "qe": "What type of heroes do Rangers counter?", "ae": "Warrior", "de": "", "g": false}, {"c": "fac", "qp": "Która odpowiedź opisuje frakcję bohatera? (pytanie z obrazkiem)", "ap": "Wojownicy", "dp": "", "qe": "Which option below describes the Hero's faction?", "ae": "Warrior", "de": "", "g": false}, {"c": "fac", "qp": "Bohaterowie której frakcji kontrują Czarnoksiężników?", "ap": "Wojownicy", "dp": "", "qe": "Which faction's heroes counter Warlock?", "ae": "Warrior", "de": "", "g": false}, {"c": "fac", "qp": "Jakich bohaterów kontrują Wojownicy?", "ap": "Czarnoksiężników", "dp": "", "qe": "What type of heroes do Warriors counter?", "ae": "Warlock", "de": "", "g": false}, {"c": "fac", "qp": "Jakich bohaterów kontrują Czarnoksiężnicy?", "ap": "Łowców", "dp": "", "qe": "What type of heroes do Warlocks counter?", "ae": "Ranger", "de": "", "g": false}, {"c": "fac", "qp": "Która frakcja kontruje Łowców?", "ap": "Czarnoksiężnicy", "dp": "", "qe": "Which faction counters the ranger?", "ae": "Warlock", "de": "", "g": false}, {"c": "vip", "qp": "Na którym poziomie VIP odblokowuje się wyświetlanie poziomu VIP na czacie?", "ap": "3", "dp": "", "qe": "At which VIP level is the VIP Level Display in Chat feature unlocked?", "ae": "3", "de": "", "g": false}, {"c": "vip", "qp": "Na którym poziomie VIP odblokowuje się Szybkie Wyzwanie w Bitwie Ekspedycyjnej?", "ap": "8", "dp": "", "qe": "At which VIP level is the Quick Challenge feature for Expedition Battle unlocked?", "ae": "8", "de": "", "g": false}, {"c": "vip", "qp": "Na którym poziomie VIP odblokowuje się automatyczne wysyłanie w tajnych operacjach?", "ap": "10", "dp": "", "qe": "At which VIP level is Auto Dispatch for Covert Operations unlocked?", "ae": "10", "de": "", "g": false}, {"c": "vip", "qp": "Na którym poziomie VIP odblokowuje się tryb super w tajnych operacjach?", "ap": "12", "dp": "", "qe": "At which VIP level is the Super Mode for Covert Operations unlocked?", "ae": "12", "de": "", "g": true}, {"c": "vip", "qp": "Które wzmocnienia nie są odblokowywane przez podnoszenie poziomu VIP?", "ap": "Wzmocnienia statystyk żołnierzy", "dp": "", "qe": "What buffs are not unlocked by raising your VIP level?", "ae": "Enhance Soldier Stats", "de": "", "g": true}, {"c": "lore", "qp": "Jaki specjalny strój chroni przed chorobą?", "ap": "Strój Doktora Plagi", "dp": "", "qe": "What special attire is needed to prevent the disease?", "ae": "Plague Doctor's Garb", "de": "", "g": false}, {"c": "lore", "qp": "Co zrobić po zarażeniu?", "ap": "Udać się do lekarza na leczenie", "dp": "", "qe": "What should be done after getting infected?", "ae": "See a doctor for treatment", "de": "", "g": false}, {"c": "lore", "qp": "Jaki przedmiot potwierdza, że jesteś Burmistrzem?", "ap": "Sygnet", "dp": "", "qe": "What is the item that serves as proof of being the Mayor in the game?", "ae": "Signet Ring", "de": "", "g": false}, {"c": "lore", "qp": "Do czego głównie służy laska doktora plagi?", "ap": "Do zachowania dystansu od pacjentów", "dp": "", "qe": "What is the primary use of the plague doctor's staff?", "ae": "Keep a distance from patients", "de": "", "g": false}, {"c": "lore", "qp": "Kto ciężko zranił i zaraził Celię?", "ap": "Król Szczurów", "dp": "", "qe": "Who is responsible for severely injuring and infecting Celia?", "ae": "Rat King", "de": "", "g": false}, {"c": "lore", "qp": "Jak choroba dostała się do miasta?", "ap": "Przez ugryzienie pchły lub szczura", "dp": "", "qe": "How did the disease enter the town?", "ae": "Flea or rat bite", "de": "", "g": false}, {"c": "lore", "qp": "Kto był pierwszym pacjentem uratowanym przez Sanktuarium?", "ap": "William", "dp": "", "qe": "Who was the first emergency patient rescued by the Sanctuary?", "ae": "William", "de": "", "g": false}, {"c": "lore", "qp": "Co zwykle umieszczano w dziobie maski Doktora Plagi?", "ap": "Przyprawy i zioła", "dp": "", "qe": "What is typically placed inside the beak of a Plague Doctor's mask?", "ae": "Spices and herbs", "de": "", "g": false}, {"c": "lore", "qp": "Kto kontroluje czarne szczury i atakuje miasto?", "ap": "Czarny Czarodziej", "dp": "", "qe": "Who controls the black rats and attacks the town?", "ae": "Black Wizard", "de": "", "g": false}, {"c": "lore", "qp": "W co zmienią się zarażeni, jeśli nie zostaną wyleczeni na czas?", "ap": "W Zarazę", "dp": "", "qe": "What will infected individuals turn into if they are not treated in time?", "ae": "Blight", "de": "", "g": false}, {"c": "evt", "qp": "Po co oddaje się Mysią Przynętę w evencie Pułapka Serowa?", "ap": "Żeby zwiększyć obrażenia zadawane przez gracza", "dp": "", "qe": "What is the purpose of donating Mouse Lure in the Cheese Trap event?", "ae": "To increase player's damage dealt", "de": "", "g": false}, {"c": "evt", "qp": "W które dni Pojedynek Sojuszy jest niedostępny?", "ap": "W niedziele", "dp": "", "qe": "On which days is the Alliance Duel event not available?", "ae": "Sundays", "de": "", "g": false}, {"c": "evt", "qp": "Ile godzin trwa każda Bitwa o Przetrwanie?", "ap": "4", "dp": "", "qe": "How many hours does each Survival Battle last in the game?", "ae": "4", "de": "", "g": false}, {"c": "evt", "qp": "Jaki jest początkowy odstęp darmowej relokacji w Starciu o Eliksir?", "ap": "2 minuty", "dp": "", "qe": "In the Elixir Scramble, what is the initial free relocation interval (in minutes)?", "ae": "2 minutes", "de": "", "g": false}, {"c": "evt", "qp": "Jaki jest temat Pojedynku Sojuszy w poniedziałek?", "ap": "Wzmocnienie Kruka", "dp": "", "qe": "What is the theme for Alliance Duel on Mondays?", "ae": "Enhance Raven", "de": "", "g": false}, {"c": "evt", "qp": "Jaki jest temat Pojedynku Sojuszy we wtorek?", "ap": "Rozwój terytorium", "dp": "", "qe": "What is the theme for Alliance Duel on Tuesdays?", "ae": "Territory Development", "de": "", "g": false}, {"c": "evt", "qp": "Jaki jest temat Pojedynku Sojuszy w środę?", "ap": "Badania technologii", "dp": "", "qe": "What is the theme for Alliance Duel on Wednesdays?", "ae": "Tech Research", "de": "", "g": false}, {"c": "evt", "qp": "Jaki jest temat Pojedynku Sojuszy w czwartek?", "ap": "Wzmocnienie bohaterów", "dp": "", "qe": "What is the theme for Alliance Duel on Thursdays?", "ae": "Enhance Heroes", "de": "", "g": false}, {"c": "evt", "qp": "Ile minut trwa Starcie o Eliksir?", "ap": "30 minut", "dp": "", "qe": "How many minutes does an Elixir Scramble last?", "ae": "30 minutes", "de": "", "g": false}, {"c": "evt", "qp": "Badanie technologii z kategorii Pojedynek Sojuszy może zwiększyć liczbę punktów zdobywanych w każdym Pojedynku Sojuszy.", "ap": "Prawda", "dp": "", "qe": "Researching Alliance Duel technology can increase the points gained per Alliance Duel.", "ae": "Correct", "de": "", "g": true}, {"c": "hero", "qp": "Do jakiej klasy należy Shadow?", "ap": "Do tanków", "dp": "", "qe": "What is Shadow's role in the game?", "ae": "Tank", "de": "", "g": true}, {"c": "hero", "qp": "Jakiej jakości jest Arthur?", "ap": "UR", "dp": "", "qe": "What is the quality of Arthur in the game?", "ae": "UR", "de": "", "g": false}, {"c": "hero", "qp": "Jakiej jakości jest Celia?", "ap": "SSR", "dp": "", "qe": "What is the quality of Celia in the game?", "ae": "SSR", "de": "", "g": false}, {"c": "hero", "qp": "Co ogranicza maksymalny poziom umiejętności bohatera?", "ap": "Gwiazdki bohatera", "dp": "", "qe": "What limits the hero skill level cap?", "ae": "Hero Stars", "de": "", "g": true}, {"c": "hero", "qp": "Do jakiego typu bohaterów należy Marlena?", "ap": "Wojowników (czerwonej)", "dp": "", "qe": "What type of hero is Marlena?", "ae": "Warrior (Red)", "de": "", "g": true}, {"c": "hero", "qp": "Który z bohaterów ma jakość UR?", "ap": "Marlena", "dp": "", "qe": "Which of the following heroes is of UR quality?", "ae": "Marlena", "de": "", "g": false}, {"c": "hero", "qp": "Jakie są role różnych klas bohaterów?", "ap": "Wszystkie odpowiedzi są poprawne", "dp": "Tanki z przodu pochłaniają obrażenia, zadający obrażenia z tyłu maksymalizują obrażenia", "qe": "What are the roles of different hero classes?", "ae": "All of the above", "de": "Tanks at the front absorb damage, damage dealers at the back maximize damage output", "g": true}, {"c": "hero", "qp": "Do czego służy antytoksyna?", "ap": "Do wzmacniania lub ulepszania bohatera", "dp": "", "qe": "What is the function of Antitoxin?", "ae": "Enhances or upgrades hero", "de": "", "g": false}, {"c": "hero", "qp": "Jaki efekt ma aktywna umiejętność Arthura?", "ap": "Dodaje tarcze", "dp": "", "qe": "What effect does Arthur's Active Skill have?", "ae": "Add Shields", "de": "", "g": false}, {"c": "hero", "qp": "Arthura (tanka) trzeba ustawić w tylnym rzędzie.", "ap": "Fałsz", "dp": "", "qe": "We need to place Arthur (Tank Hero) in the back row.", "ae": "Incorrect", "de": "", "g": false}, {"c": "ally", "qp": "Jakie wzmocnienia daje dołączenie do sojuszu?", "ap": "Obie odpowiedzi są poprawne", "dp": "Inni gracze mogą pomagać w budowie i dołączać do rajdów", "qe": "What Buffs are available after joining an Alliance?", "ae": "Both", "de": "Allow other players to help in construction and to Rally for battle", "g": false}, {"c": "ally", "qp": "Ile razy dziennie możesz pomóc członkom sojuszu w tajnych operacjach?", "ap": "5", "dp": "", "qe": "How many times can you assist Alliance members in completing Covert Operations daily?", "ae": "5", "de": "", "g": false}, {"c": "ally", "qp": "Jakie korzyści dają członkowie sojuszu?", "ap": "Obie odpowiedzi są poprawne", "dp": "Przyspieszają budowę i badania", "qe": "What benefits can Alliance members provide?", "ae": "Both of the above", "de": "Speed up construction, speed up research", "g": false}];
+const $ = id => document.getElementById(id);
+const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ł/g, "l").replace(/[’']/g, "'");
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+Q.forEach(q => q.k = norm([q.qp, q.ap, q.dp, q.qe, q.ae, q.de].join(" ")));
+let cat = "all";
+
+// chips
+const chips = $("chips");
+const counts = Q.reduce((m, q) => (m[q.c] = (m[q.c] || 0) + 1, m), {});
+[["all", ["Wszystkie", "All"]], ...Object.entries(CATS)].forEach(([id, [pl, en]]) => {
+  const b = document.createElement("button");
+  b.className = "chip"; b.dataset.c = id; b.setAttribute("aria-pressed", id === "all");
+  b.innerHTML = (pl === en ? pl : pl + " / " + en) + " <small>" + (id === "all" ? Q.length : counts[id]) + "</small>";
+  b.onclick = () => { cat = id; chips.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === b)); render(); };
+  chips.appendChild(b);
+});
+
+// highlight matches without breaking diacritics: map normalized index -> original
+function hl(text, terms) {
+  if (!terms.length) return esc(text);
+  const n = norm(text); const marks = new Array(text.length).fill(false);
+  terms.forEach(t => { let i = n.indexOf(t); while (i > -1) { for (let j = i; j < i + t.length; j++) marks[j] = true; i = n.indexOf(t, i + t.length); } });
+  let out = "", open = false;
+  for (let i = 0; i < text.length; i++) {
+    if (marks[i] && !open) { out += "<mark>"; open = true; }
+    if (!marks[i] && open) { out += "</mark>"; open = false; }
+    out += esc(text[i]);
+  }
+  return out + (open ? "</mark>" : "");
+}
+
+function card(q, t) {
+  const [pl, en] = CATS[q.c];
+  return `<article class="card"><div class="tag">${pl === en ? pl : pl + " · " + en}${q.g ? '<span class="ok">✓ z gry</span>' : ""}</div>
+  <div class="q"><span class="lang">PL</span>${hl(q.qp, t)}</div><div class="a">${hl(q.ap, t)}</div>${q.dp ? `<div class="d">${hl(q.dp, t)}</div>` : ""}
+  <div class="en"><div class="q"><span class="lang">EN</span>${hl(q.qe, t)}</div><div class="a">${hl(q.ae, t)}</div>${q.de ? `<div class="d">${hl(q.de, t)}</div>` : ""}</div></article>`;
+}
+
+function render() {
+  const raw = $("s").value.trim();
+  const t = norm(raw).split(/\s+/).filter(w => w.length > 1 || /\d/.test(w));
+  const res = Q.filter(q => (cat === "all" || q.c === cat) && t.every(w => q.k.includes(w)));
+  $("list").innerHTML = res.map(q => card(q, t)).join("");
+  $("n").textContent = res.length === Q.length ? `${Q.length} pytań · questions` : `${res.length} / ${Q.length}`;
+  $("e").style.display = res.length ? "none" : "block";
+  $("c").style.display = raw ? "block" : "none";
+}
+$("s").addEventListener("input", render);
+$("c").onclick = () => { $("s").value = ""; render(); $("s").focus(); };
+render();
+</script>
+</body>
+</html>
